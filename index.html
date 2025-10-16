@@ -1,204 +1,81 @@
 <!doctype html>
 <html lang="en">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width,initial-scale=1">
-<title>ML Training Diary </title>
-<style>
-/* ---------- Reset & Global ---------- */
-body {
-  margin: 0;
-  font-family: 'Poppins', sans-serif;
-  background: #f0f4f8;
-  color: #1b1b1b;
-}
-a { text-decoration: none; color: inherit; }
-
-/* ---------- Hero Section ---------- */
-.hero {
-  background: linear-gradient(120deg, #6a11cb, #2575fc);
-  color: white;
-  text-align: center;
-  padding: 60px 20px;
-  position: relative;
-  overflow: hidden;
-}
-.hero h1 {
-  font-size: 3rem;
-  margin: 0;
-}
-.hero p {
-  font-size: 1.2rem;
-  margin-top: 10px;
-}
-
-/* ---------- Info Section ---------- */
-.info-section {
-  display: flex;
-  justify-content: space-between;
-  max-width: 1000px;
-  margin: -40px auto 40px auto;
-  background: white;
-  border-radius: 15px;
-  box-shadow: 0 8px 20px rgba(0,0,0,0.1);
-  padding: 20px 30px;
-  flex-wrap: wrap;
-}
-.info-section div {
-  flex: 1 1 300px;
-  margin: 10px;
-}
-.info-section div h3 {
-  color: #2575fc;
-  margin-bottom: 8px;
-}
-
-/* ---------- Accordion Days ---------- */
-.accordion {
-  max-width: 1000px;
-  margin: 0 auto 40px auto;
-}
-.accordion-item {
-  background: #fff;
-  border-radius: 12px;
-  margin-bottom: 12px;
-  box-shadow: 0 4px 15px rgba(0,0,0,0.05);
-  overflow: hidden;
-  transition: transform 0.2s;
-}
-.accordion-item:hover { transform: translateY(-2px); }
-.accordion-header {
-  padding: 15px 20px;
-  background: linear-gradient(90deg, #6a11cb, #2575fc);
-  color: white;
-  font-weight: bold;
-  cursor: pointer;
-}
-.accordion-body {
-  padding: 15px 20px;
-  display: none;
-  background: #f9f9f9;
-}
-.accordion-body a {
-  display: block;
-  margin-bottom: 8px;
-  padding: 10px 15px;
-  background: #2575fc;
-  color: white;
-  border-radius: 8px;
-  transition: 0.3s;
-}
-.accordion-body a:hover { background: #6a11cb; }
-
-/* ---------- Project Cards ---------- */
-.projects {
-  max-width: 1000px;
-  margin: 0 auto 60px auto;
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  gap: 25px;
-}
-.project-card {
-  width: 180px;
-  height: 180px;
-  background: linear-gradient(145deg, #ffffff, #e0e0e0);
-  border-radius: 15px;
-  box-shadow: 0 10px 20px rgba(0,0,0,0.1);
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  transition: transform 0.3s, box-shadow 0.3s;
-}
-.project-card:hover {
-  transform: translateY(-10px) rotateX(5deg);
-  box-shadow: 0 20px 35px rgba(0,0,0,0.2);
-}
-.project-card .icon { font-size: 36px; margin-bottom: 10px; }
-.project-card .label { font-weight: bold; color: #2575fc; }
-
-/* ---------- Footer ---------- */
-footer {
-  text-align: center;
-  padding: 25px 0;
-  background: linear-gradient(120deg, #2575fc, #6a11cb);
-  color: white;
-  font-weight: bold;
-}
-
-/* ---------- Accordion Script ---------- */
-</style>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>4-Week AI & ML using python Training Diary — Jashan</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
-<div class="hero">
-  <h1>🤖 ML Training Diary</h1>
-  <p>4-week hands-on training in Machine Learning</p>
-</div>
-
-<div class="info-section">
-  <div>
-    <h3>Student Info</h3>
-    <p><strong>Name:</strong> Jashan</p>
-    <p><strong>URN:</strong> 2302560</p>
-    <p><strong>Department:</strong> Computer science and engneering</p>
-  </div>
-  <div>
-    <h3>Training Info</h3>
-    <p><strong>Company:</strong> ThinkNEXT Technologies Pvt. Ltd.</p>
-    <p><strong>Domain:</strong> Machine Learning</p>
-    <p><strong>Duration:</strong> 23 June 2025 – 21 July 2025</p>
-  </div>
-</div>
-
-<div class="accordion">
-  <div class="accordion-item">
-    <div class="accordion-header">Week 1</div>
-    <div class="accordion-body">
-      <a href="Day1.pdf" target="_blank">Day 1: Introduction</a>
-      <a href="Day2.pdf" target="_blank">Day 2: Python Basics</a>
-      <a href="Day3.pdf" target="_blank">Day 3: Numpy & Pandas</a>
+   <header class="project-header">
+    <img src="college_logo.png" alt="College Logo" class="college-logo" />
+    <div class="project-info">
+      <h1>📘 AI & ML using python Training Daily Diary</h1>
+      <p><strong>Student:</strong> Jashan</p>
+      <p><strong>URN:</strong> 2302560</p>
+      <p><strong>Department:</strong> Computer Science & Engineering</p>
+      <p><strong>Training Company:</strong> ThinkNEXT Technologies Pvt. Ltd.</p>
+      <p><strong>Domain:</strong> Java Development</p>
+      <p><strong>Duration:</strong> 23 June 2025 – 21 July 2025</p>
     </div>
-  </div>
-  <div class="accordion-item">
-    <div class="accordion-header">Week 2</div>
-    <div class="accordion-body">
-      <a href="Day4.pdf" target="_blank">Day 4: Matplotlib</a>
-      <a href="Day5.pdf" target="_blank">Day 5: Data Preprocessing</a>
+  </header>
+
+  <main class="container">
+    <section class="intro card">
+      <h2>About</h2>
+      <p>This site contains my daily progress PDFs for a 4-week industrial training. Click any day to open its PDF.</p>
+    </section>
+
+    <section>
+      <h2 style="text-align: center">Daily Dairy</h2>
+      <nav>
+    <div class="day-buttons">
+          <a href="Day 1 – History of Java.pdf" target="_blank">Day 1</a>
+          <a href="Day 2 – Introduction to Java.pdf" target="_blank">Day 2</a>
+          <a href="Day 3 .pdf" target="_blank">Day 3</a>
+          <a href="Day 4.pdf" target="_blank">Day 4</a>
+          <a href="Day 5.pdf" target="_blank">Day 5</a>
     </div>
+      </nav>
+       <nav>
+    <div class="day-buttons">
+          <a href="Day 6.pdf" target="_blank">Day 6</a>
+          <a href="Day 7.pdf" target="_blank">Day 7</a>
+          <a href="Day 8.pdf" target="_blank">Day 8</a>
+          <a href="Day 9.pdf" target="_blank">Day 9</a>
+          <a href="Day 10.pdf" target="_blank">Day 10</a>
+    </div>
+       </nav>
+       <nav>
+    <div class="day-buttons">
+          <a href="Day 11.pdf" target="_blank">Day 11</a>
+          <a href="Day 12.pdf" target="_blank">Day 12</a>
+          <a href="Day 13.pdf" target="_blank">Day 13</a>
+          <a href="Day 14.pdf" target="_blank">Day 14</a>
+          <a href="Day 15.pdf" target="_blank">Day 15</a>
+      </div>
+      </nav>
+    </section>
+    <section class="documents-section">
+  <h2>Project Documents</h2>
+  <div class="doc-cards">
+    <a class="doc-card" href="report.pdf" target="_blank">
+      <div class="doc-icon">📄</div>
+      <div class="doc-label">Training Report</div>
+    </a>
+    <a class="doc-card" href="certificate.pdf" target="_blank">
+      <div class="doc-icon">🎓</div>
+      <div class="doc-label">Training Certificate</div>
+    </a>
+    <a class="doc-card" href="project.pdf" target="_blank">
+      <div class="doc-icon">📂</div>
+      <div class="doc-label">Training Project</div>
+    </a>
   </div>
-  <!-- Add more weeks similarly -->
-</div>
-
-<div class="projects">
-  <div class="project-card">
-    <div class="icon">📘</div>
-    <div class="label">Training Report</div>
-  </div>
-  <div class="project-card">
-    <div class="icon">🏅</div>
-    <div class="label">Certificate</div>
-  </div>
-  <div class="project-card">
-    <div class="icon">💾</div>
-    <div class="label">ML Project</div>
-  </div>
-</div>
-
-<footer>
-  Built by [Friend's Name] • <a href="https://github.com/[friendgithub]" target="_blank">GitHub</a>
-</footer>
-
-<script>
-  // Accordion toggle
-  document.querySelectorAll('.accordion-header').forEach(header => {
-    header.addEventListener('click', () => {
-      const body = header.nextElementSibling;
-      body.style.display = body.style.display === 'block' ? 'none' : 'block';
-    });
-  });
-</script>
-
+</section>
+    <footer class="card small">
+      <p>Built by Jashan • <a href="https://github.com/jashanchoudhary778">GitHub:jashanchoudhary778 </a></p>
+    </footer>
+  </main>
 </body>
 </html>
