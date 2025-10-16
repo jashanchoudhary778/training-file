@@ -1,0 +1,200 @@
+:body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color:#f8f9fa;
+      margin: 0;
+      color:#2c3e50;
+    }
+    .project-header {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: center;
+      background: linear-gradient(135deg, #0f2027, #2c5364);
+      color: white;
+      padding: 25px 20px;
+      border-radius: 12px;
+      max-width: 1000px;
+      margin: 20px auto;
+      box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+      text-align: center;
+    }
+
+    .project-header .college-logo {
+      width: 120px;
+      height: auto;
+      margin-right: 25px;
+      border-radius: 10px;
+      border: 2px solid white;
+      margin-bottom: 10px;
+    }
+
+    .project-header .project-info h1 {
+      margin: 0 0 10px 0;
+      font-size: 2.2rem;
+      font-weight: 700;
+    }
+
+    .project-header .project-info p {
+      margin: 3px 0;
+      font-size: 1rem;
+    }
+    nav {
+      max-width: 1000px;
+      margin: 0 auto 40px auto;
+      text-align: center;
+    }
+
+    .day-buttons {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      margin-bottom: 12px;
+    }
+
+    .day-buttons a {
+      background-color: #34495e;
+      color: white;
+      text-decoration: none;
+      padding: 12px 22px;
+      margin: 5px;
+      border-radius: 8px;
+      font-weight: bold;
+      font-size: 1rem;
+      transition: all 0.3s ease;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    }
+
+    .day-buttons a:hover {
+      background-color: #16a085;
+      transform: translateY(-3px) scale(1.05);
+      box-shadow: 0 6px 15px rgba(0,0,0,0.15);
+    }
+
+.documents-section {
+  margin-top: 40px;
+  text-align: center;
+}
+.doc-cards {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+.doc-card {
+  display: block;
+  width: 150px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  text-decoration: none;
+  color: inherit;
+  transition: box-shadow 0.2s;
+}
+.doc-card:hover {
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+.doc-icon {
+  font-size: 32px;
+  margin-bottom: 8px;
+}
+.doc-label {
+  font-weight: bold;
+  font-size: 16px;
+}
+
+    
+    main {
+      max-width: 1000px;
+      margin: 0 auto 40px auto;
+      padding: 25px 20px;
+    }
+
+    section {
+      background-color: #fff;
+      padding: 25px;
+      border-radius: 12px;
+      box-shadow: 0 5px 20px rgba(0,0,0,0.05);
+      margin-bottom: 30px;
+      transition: transform 0.2s;
+    }
+
+    section:hover {
+      transform: translateY(-2px);
+    }
+
+    main h2 {
+      color: #1f3c88;
+      margin-top: 0;
+      margin-bottom: 15px;
+    }
+
+    main p, main li {
+      line-height: 1.7;
+      font-size: 1rem;
+    }
+
+    main ul {
+      padding-left: 20px;
+    }
+
+  
+    .files {
+      text-align: center;
+    }
+
+    .files ul {
+      list-style: none;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+
+    .files ul li {
+      margin: 10px 15px;
+    }
+
+    .files ul li a {
+      display: inline-block;
+      background-color: #2980b9;
+      color: white;
+      padding: 12px 25px;
+      border-radius: 10px;
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 1.05rem;
+      transition: all 0.3s ease;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    }
+
+    .files ul li a:hover {
+      background-color: #2ecc71;
+      transform: translateY(-3px) scale(1.05);
+      box-shadow: 0 6px 15px rgba(0,0,0,0.15);
+    }
+
+    
+    footer {
+      text-align: center;
+      padding: 18px 0;
+      background-color: #1f3c88;
+      color: white;
+      border-radius: 0 0 12px 12px;
+      font-weight: bold;
+      box-shadow: 0 -5px 20px rgba(0,0,0,0.05);
+      margin-top: 20px;
+    }
+
+    
+    @media (max-width: 768px) {
+      .project-header {
+        flex-direction: column;
+      }
+      .project-header .college-logo {
+        margin-right: 0;
+      }
+      .day-buttons a {
+        padding: 10px 15px;
+        font-size: 0.95rem;
+      }
+    }
